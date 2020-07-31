@@ -1,0 +1,1 @@
+const result = myNumbers.filter((num) => num > 55)
