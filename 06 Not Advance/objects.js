@@ -6,10 +6,18 @@ var User = function(firstname, courseCount){
     };
 };
 
-var Aswin = new User("Aswin", 2)
+User.prototype.getFirstname = function(){
+    console.log(`Your Firstname is : ${this.firstname}`);
+}
 
-console.log(Aswin);
+var Aswin = new User("Aswin", 2)
+Aswin.getCourseCount();
+Aswin.getFirstname();
+
+// console.log(Aswin);
 
 var Sam = new User("Sam", 1)
+Sam.getCourseCount()
+Sam.getFirstname();
 
-console.log(Sam);
+// console.log(Sam);
