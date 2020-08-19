@@ -14,6 +14,10 @@ var Aswin = new User("Aswin", 2)
 Aswin.getCourseCount();
 Aswin.getFirstname();
 
+if(Aswin.hasOwnProperty("firstname")){
+    Aswin.getFirstname();
+}
+
 // console.log(Aswin);
 
 var Sam = new User("Sam", 1)
