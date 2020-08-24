@@ -23,4 +23,4 @@ var add5 = doAddition(4);
 console.log(add5(5));
 
 console.log(doAddition(8)(4));
-
+// doAddition()()() //curring
