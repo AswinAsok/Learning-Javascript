@@ -8,7 +8,7 @@ const aswin = {
         Firstname is ${this.firstname}
         Lastname is ${this.firstname}
         His role is ${this.role}
-        and he is studying is ${this.coursecount} cousrse
+        and he is studying is ${this.coursecount} course
         `);
     }
 }
