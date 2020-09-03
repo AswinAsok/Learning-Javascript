@@ -1,6 +1,6 @@
 var myMaps = new Map()
 
-myMaps.set(1, "Uno")
+myMaps.set(a, "Uno")
 myMaps.set(2, "dos")
 myMaps.set(3, "Tres")
 myMaps.set(4, "Cuatro")
