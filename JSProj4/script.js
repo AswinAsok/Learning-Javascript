@@ -76,7 +76,7 @@ function reset(){
 
 function checkwinner(){
     if(count == 8){
-        document.getElementById("score").innerHTML = `${name} is true a Genius`;
+        document.getElementById("score").innerHTML = `${name} is a true Genius`;
     }
 
 }
