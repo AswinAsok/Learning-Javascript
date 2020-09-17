@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+#score{
+  font-size: 35px;
 }
 
 body {
@@ -9,6 +13,7 @@ body {
   background-color: rgb(66, 66, 66);
   display: flex;
 }
+
 
 .gameContainer {
   width: 600px;
@@ -54,3 +59,4 @@ body {
 .front {
   transform: rotateY(180deg);
 }
+
